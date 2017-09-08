@@ -71,6 +71,7 @@ public class LocatrFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_locatr, container, false);
+        mImageView = (ImageView) view.findViewById(R.id.image);
         return view;
     }
 
